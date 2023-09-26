@@ -1,0 +1,24 @@
+[package]
+name = "demo"
+version = "0.1.0"
+
+[dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry", tag = "v0.6.0" }
+starknet = ">=2.2.0"
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+
+[tool.sncast]
+account = "katana"
+accounts-file = "katana_account.json"
+keystore = "katana_key.json"
+url = "http://0.0.0.0:5050/rpc"
+
+
+
+# [tool.sncast.katana]
+# account = "katana_01"
+# url = "http://0.0.0.0:5050"
+# url = "https://starknet-goerli.infura.io/v3/432a2a081a9941aaa6e1b35bae6fa9f5"
