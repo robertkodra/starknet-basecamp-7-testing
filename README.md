@@ -85,6 +85,8 @@ For the full list of the Library Functions Referneces click [here](https://found
 
 - Currently only `felt252` is supported, however other data types will be supported in the upcoming version.
 
+More informatio nabout fuzz testing, [here](https://foundry-rs.github.io/starknet-foundry/testing/fuzz-testing.html).
+
 ```bash
 snforge --fuzzer-runs 1000 --fuzzer-seed 42
 ```
@@ -121,6 +123,6 @@ As an alternative, you can perform the following to find out the gas usage:
 
 Allows running an entire test suite against a specific forked environment.
 
-More information, [here](https://github.com/foundry-rs/starknet-foundry/blob/597-implement-fork/design_documents/state_forking/state_forking.md).
+More information, [here](https://foundry-rs.github.io/starknet-foundry/testing/fork-testing.html).
 
 To track current progress, check [here](https://github.com/foundry-rs/starknet-foundry/milestone/7).
