@@ -7,10 +7,10 @@ use result::ResultTrait;
 
 // forge
 use snforge_std::{declare, ContractClassTrait};
-use snforge_std::PrintTrait;
 use snforge_std::{start_prank, stop_prank};
 use snforge_std::{start_mock_call, stop_mock_call};
-use snforge_std::{FileTrait, read_txt};
+use snforge_std::io::PrintTrait;
+use snforge_std::io::{ FileTrait, read_txt };
 
 // project
 use demo::{OwnableTraitSafeDispatcher, OwnableTraitSafeDispatcherTrait};
